@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+  font-family: 'Sriracha', cursive;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    height: 900vh;
+    background: black;
+    overflow-x: hidden;
+}
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1 h1{
+    position: absolute;
+    text-align: center;
+    font-size: 3rem;
+}
+.page1 #ham{
+    position: fixed;
+    top: 20%;
+    left: 80%;
+    transform: translateX(0);
+    transition: all 0.5s ease-in;
+}
+.page2{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page2 #c2{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    bottom: -100vh;
+    width: 50%;
+    height: 100%;
+}
+.page2 h1{
+    position: absolute;
+    text-align: center;
+    left: 40vw;
+    top: 150vh;
+}
+.page3{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.page4{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page4 img{
+    width: 30vw;
+    height: 50vh;
+}
+.page5{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page5 .content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.page5 h1{
+    text-align: center;
+}
+.page5 .bg{
+    width: 10vw;
+    height: 12vh;
+    background: url(img/d2.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button h3{
+    color: red;
+}
+.page5 .pig{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    left: 25vw;
+}
+.page5 .child-pig{
+    width: 24vw;
+    height: 24vh;
+    background: url(img/p1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.page6{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page6 h1{
+    text-align: center;
+}
+.page6 .line{
+    position: absolute;
+    width: 1vw;
+    height: 80vh;
+    background: #094570;
+    left: 50vw;
+    top: 512vh;
+}
+.page6 .right{
+    width: 20vw;
+    height: 80vh;
+    position: absolute;
+    left: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 512vh;
+}
+.page6 .left{
+    width: 20vw;
+    height: 80vh;
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 510vh;
+}
+.page6 .pig{
+    width: 24vw;
+    height: 24vh;
+    background: url(img/p1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#pig6{
+    transition: all 3s ease-in-out;
+    filter: grayscale(0%);
+}
+.page6 h1{
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+}
+.page6 .icon{
+    width: 24vw;
+    height: 24vh;
+    background: url(img/d2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.page6 #burger{
+    position: absolute;
+    width: 5vw;
+    height: 10vh;
+    left: 48vw;
+    transition: all 1s ease-in-out;
+    transform: translate(0vw ,80vh);
+    opacity: 100%;
+    z-index: 1;
+}
+.page6 #drug{
+    position: absolute;
+    left: 80vw;
+    top: 560vh;
+    z-index: 1;
+    transform: translateX(-10vw);
+}
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }100%{
+        transform: translateX(-10vw);
+    }
+}
+@keyframes tohand {
+    0%{
+        transform: translate(0, 0);
+    }100%{
+        transform: translate(0, 80vh);
+    }
+}
+.page7{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page7 img{
+    position: absolute;
+    bottom: 0vh;
+}
+.page7 .popup{
+    position: absolute;
+    width: 12vw;
+    height: 6vh;
+    background: gray;
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20vw;
+    top: 30vh;
+}
+@keyframes run {
+    0%{
+        transform: translateX(0);
+    }100%{
+        transform: translateX(100vw);
+    }
+}
+.page8{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/bg6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page8 h1{
+    position: absolute;
+    left: 60vw;
+    top: 720vh;
+}
+.page8 h3{
+    position: absolute;
+    left: 45vw;
+    top: 730vh;
+    width: 40vw;
+}
+.page8 .ham{
+    width: 12vw;
+    height: 12vh;
+    background: url(img/h1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 740vh;
+    left: 20vw;
+}
+.page9{
+    width: 100vw;
+    height: 100vh;
+    background: url();
+    text-align: center;
+    background: url(img/bg4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page9 .border{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    border-top: 2vh #324350 solid;
+    border-bottom: 2vh #324350 solid;
+    top: 840vh;
+    left: 25vw;
+}
+.page9 .text{
+    width: 50vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 854vh;
+    left: 25vw;
+}
+.page9 .text:nth-child(2){
+    top: 842vh;
+}
+.page9 a{
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    left: 40vw;
+    top: 872vh;
+    border: 6px white solid;
+    z-index: 1;
+    transition: transform 0.5s ease-in-out;
+}
+.page9 #pig{
+    position: absolute;
+    width: 10vw;
+    top: 820vh;
+    left: 40vw;
+}
+.page9 #icon{
+    position: absolute;
+    width: 8vw;
+    top: 820vh;
+    left: 50vw;
+}
+.page9 a::before{
+    content: '';
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    background: rgb(76, 233, 76);
+    z-index: -2;
+    transition: transform 0.5s ease-in-out;
+}
+.page9 a::after{
+    content: '';
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    background: orange;
+    z-index: -1;
+    transition: transform 0.5s ease-in-out;
+    transform-origin: left;
+}
+.page9 a:hover::after{
+    transform: scaleX(0);
+    transform-origin: right;
+}
+.page9 a:hover{
+    color: white;
+}
+#pig{
+    animation: walk 3s ease-in-out infinite;
+}
+@keyframes walk {
+    0%{
+        transform: translateX(0vw);
+    }50%{
+        transform: translateX(-58vw);
+        opacity: 1;
+    }51%{
+        transform: translateX(-58vw);
+        opacity: 0;
+    }52%{
+        opacity: 1;
+        transform: translateX(100vw);
+    }100%{
+        transform: translateX(0vw);
+    }
+}
+#icon{
+    animation: walkd 3s ease-in-out infinite;
+}
+@keyframes walkd {
+    0%{
+        transform: translateX(0vw);
+    }50%{
+        transform: translateX(-54vw);
+        opacity: 1;
+    }51%{
+        transform: translateX(-54vw);
+        opacity: 0;
+    }52%{
+        opacity: 1;
+        transform: translateX(100vw);
+    }100%{
+        transform: translateX(0vw);
+    }
+}
+.drop{
+    position: fixed;
+    width: 4vw;
+    height: 8vh;
+    background: url(https://cdn.discordapp.com/attachments/809013809611669524/846425160118042641/download-1292814_1280.png);
+    bottom: 2vh;
+    left: 94vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
